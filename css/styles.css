@@ -1,0 +1,20 @@
+body{
+  background: linear-gradient(aqua, rgb(13, 121, 85));
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: bold;
+  font-size: large;
+}
+img {
+  width: 50%;
+  height: auto;
+  }
+h1{
+  text-align: center;
+}
+
+.sidebar {
+  float: left;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  background-color: aqua;
+}
