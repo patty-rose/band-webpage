@@ -17,19 +17,28 @@ h1{
   }
 
 .sidebar {
-  height: 10;
-  float: left;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  font-size: x-large;
-  background-color: aqua;
-  width: 160px;
-  border: 30px salmon;
-  border-style: dotted;
-  padding: 30px;
-  margin: 20px;
+  height: 100%;
+  width: 169px;
   position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background-color: aqua;
+  border: 20px salmon;
+  border-style: dotted;
+  padding: none;
+  margin: 10px;
 }
-
+.sidebar a{
+  text-align: center;
+  font-size: 20px;
+  font-weight:bolder;
+  display: block;
+  padding: 5px;
+  margin-top: 100px;
+  color: rgb(199, 85, 72);
+}
 .main {
   margin-left: 50px;
   padding: 200px;
