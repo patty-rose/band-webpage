@@ -3,68 +3,14 @@ body{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: bold;
   font-size: large;
-  height: 100%;
+  padding: 50px;
 }
 img {
-  width: 50%;
-  height: auto; 
-  padding: 60px;
-  margin: 20px;
+  width: 70%;
+  height: auto;
   }
 
 h1{
   text-align: center;
+  padding: 50px;
   }
-
-.sidebar {
-  height: 100%;
-  width: 169px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  background-color: aqua;
-  border: 20px salmon;
-  border-style: dotted;
-  padding: none;
-  margin: 10px;
-}
-.sidebar a{
-  text-align: center;
-  font-size: 20px;
-  font-weight:bolder;
-  display: block;
-  padding: 5px;
-  margin-top: 100px;
-  color: rgb(199, 85, 72);
-}
-.main {
-  margin-left: 50px;
-  padding: 200px;
-}
-
-.column1{
-  flex:auto
-  margin: 20px;
-  border: 5px salmon;
-  border-style: dotted;
-}
-
-.column2{
-flex:auto;
-margin: 20px;
-border: 5px salmon;
-border-style: dotted;
-}
-
-.column3{
- flex: auto;
- margin: 20px;
- border: 5px salmon;
- border-style: dotted;
-}
-
-.columns{
-display: flex;
-}
